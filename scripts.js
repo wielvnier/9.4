@@ -1,6 +1,6 @@
 function drawTree(rows) {
   var star;
-  for (var i = 0; i <= rows; i++){
+  for (var i = 1; i <= rows; i++){
     var star = '';
     for (var j = 0; j < i; j++){
       star += '*';
@@ -14,7 +14,7 @@ function drawTree(rows) {
 
 function drawStraightTree(rows) {
   var star = '';
-  for (var i = 0; i <= rows; i++){
+  for (var i = 1; i <= rows; i++){
     star = '';
     // spacje
     for (var j = 0; j < rows - i; j++){
